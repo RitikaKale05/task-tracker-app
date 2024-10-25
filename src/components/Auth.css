@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+body {
+    margin: 0; 
+    padding: 0; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    overflow: hidden;
+}
+
+body::before {
+    content: '';
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-image: url('C:\Users\ritik\task-tracker-app\src\components\images\background.jpg'); /* Path to your background image */
+    background-size: cover; 
+    background-position: center; 
+    opacity: 0.5; 
+    z-index: 0; 
+}
+
+.auth-container {
+    position: relative;
+    width: 400px; 
+    padding: 20px; 
+    margin: 50px auto;
+    background-color: rgba(249, 249, 249, 0.8); 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    z-index: 1;
+  }
+  
+  .auth-container img {
+    display: block;
+    margin: 10px auto; 
+    border-radius: 50%; 
+  }
+  
+  .auth-container h2 {
+    text-align: center;
+    font-size: 18px; 
+    margin-bottom: 20px; 
+  }
+
+  .tagline {
+    font-family: 'Dancing Script', cursive; 
+    font-weight: bold; 
+    font-size: 54px; 
+    color: #333; 
+    text-align: center; 
+    margin-top: 80px; 
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+  .button {
+    background-color: #4285F4; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 0 auto; 
+  }
+  
+  .button:hover {
+    background-color: #357ae8; 
+  }
+  
+  /*.signout-button {
+    background-color: #f44336;
+    margin-left: auto;
+  }
+  
+  .signout-button:hover {
+    background-color: #d32f2f;
+  }
+  
+
+  .profile-info {
+    display: flex;
+    align-items: center; 
+  justify-content: space-between; 
+  margin-top: 20px;
+  }
+  
+  .profile-info img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .welcome-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  */
