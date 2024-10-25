@@ -18,7 +18,7 @@ body::before {
     left: 0; 
     right: 0; 
     bottom: 0; 
-    background-image: url('C:\Users\ritik\task-tracker-app\src\components\images\background.jpg'); /* Path to your background image */
+    background-image: url('./images/background.jpg'); /* Path to your background image */
     background-size: cover; 
     background-position: center; 
     opacity: 0.5; 
